@@ -1,0 +1,10 @@
+*
+# Experimenting with idea of reverse git ignore
+#  IDEA: force all files to be defined when added to github
+#  Reason: Avoid human error
+!.gitignore
+!package.json
+!pnpm-lock.yaml
+!README.md
+!.nvmrc
+!src/
