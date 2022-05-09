@@ -1,5 +1,5 @@
 {
-  "name": "jt-collision-detection",
+  "name": "@sagea/jt-collision-detection",
   "version": "1.0.0",
   "description": "Basic collision detection methods based on Jeffrey Thompson's collision detection online series",
   "main": "./build/cjs/index.js",
@@ -23,13 +23,19 @@
   "files": [
     "build/"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sagea/jt-collision-detection"
+  },
   "scripts": {
     "prebuild": "rm -rf build/ docs/",
     "build": "node ./build.mjs",
     "build:scripts": "node ./build.mjs",
     "build:docs": "typedoc src/index.ts",
+    "typecheck": "tsc --noEmit",
     "lint": "prettier src/ --check",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ci": "npm install && "
   },
   "author": "Alexander Sage <sagezander@gmail.com>",
   "homepage": "https://github.com/sagea/jt-collision-detection",
