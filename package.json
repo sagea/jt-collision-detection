@@ -10,6 +10,13 @@
     "detection",
     "collision detection",
     "Jeffrey Thompson",
+    "point",
+    "line",
+    "rectangle",
+    "rect",
+    "circle",
+    "polygon",
+    "poly",
     "esbuild",
     "typescript"
   ],
@@ -22,7 +29,11 @@
     "lint": "prettier src/ --check",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Alexander Sage <sagezander@gmail.com>",
+  "homepage": "https://github.com/sagea/jt-collision-detection",
+  "bugs": {
+    "url" : "https://github.com/sagea/jt-collision-detection/issues",
+  },
   "license": "ISC",
   "devDependencies": {
     "esbuild": "^0.14.38",
