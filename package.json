@@ -34,6 +34,7 @@
     "build:docs": "typedoc src/index.ts",
     "typecheck": "tsc --noEmit",
     "lint": "prettier src/ --check",
+    "lint:fix": "prettier src/ --write",
     "test": "echo \"Error: no test specified\" && exit 1",
     "ci": "npm install && "
   },

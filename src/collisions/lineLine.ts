@@ -1,8 +1,8 @@
 /**
  * Check if two lines intersect
- * 
+ *
  * Source: https://www.jeffreythompson.org/collision-detection/line-line.php
- * 
+ *
  * @param {number} l1x1 Line 1 starting point x poisition
  * @param {number} l1y1 Line 1 starting point y poisition
  * @param {number} l1x2 Line 1 ending point x poisition
@@ -12,11 +12,11 @@
  * @param {number} l2x2 Line 2 ending point x poisition
  * @param {number} l2y2 Line 2 ending point y poisition
  * @returns {boolean}
- * 
+ *
  * @example
  * ```js
  * import { lineLine } from 'jt-collision-detection'
- * 
+ *
  * const lineA = {
  *   start: { x: 5, y: 5 },
  *   end: { x: 10, y: 10 },
@@ -25,13 +25,13 @@
  *   start: { x: 3, y: 3 },
  *   end: { x: 15, y: 15 },
  * }
- * 
+ *
  * const haveCollided = lineLine(
  *   lineA.start.x,
  *   lineA.start.y,
  *   lineA.end.x,
  *   lineA.end.y,
- * 
+ *
  *   lineB.start.x,
  *   lineB.start.y,
  *   lineB.end.x,

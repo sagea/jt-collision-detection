@@ -1,8 +1,8 @@
 /**
  * Check if point is inside a rectangle
- * 
+ *
  * Source: https://www.jeffreythompson.org/collision-detection/point-rect.php
- * 
+ *
  * @param px point x position
  * @param py point y position
  * @param rx Rectangle x position
@@ -10,27 +10,27 @@
  * @param rw Rectangle width
  * @param rh Rectangle height
  * @returns
- * 
+ *
  * @example
  * ```js
  * import { pointRect } from 'jt-collision-detection'
- * 
+ *
  * const point = {
  *   x: 10,
  *   y: 10,
  * }
- * 
+ *
  * const rect = {
  *   x: 15,
  *   y: 15,
  *   width: 20,
  *   height: 50,
  * }
- * 
+ *
  * const haveCollided = pointRect(
  *   point.x,
  *   point.y,
- * 
+ *
  *   rect.x,
  *   rect.y,
  *   rect.width,

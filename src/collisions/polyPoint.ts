@@ -2,33 +2,33 @@ import { Vector2D } from '../utils'
 
 /**
  * Check if a polygon and a point intersect
- * 
+ *
  * Source: https://www.jeffreythompson.org/collision-detection/poly-point.php
- * 
+ *
  * @param vertices polygon verticies
  * @param px point x position
  * @param py point y position
  * @returns
- * 
+ *
  * @example
  * ```js
  * import { polyPoint } from 'jt-collision-detection'
- * 
+ *
  * const poly = [
  *  // triangle
  *  { x: 10, y: 10 },
  *  { x: 20, y: 20 },
  *  { x: 30, y: 10 },
  * ]
- * 
+ *
  * const point = {
  *   x: 10,
  *   y: 10,
  * }
- * 
+ *
  * const haveCollided = polyPoint(
  *   poly,
- * 
+ *
  *   point.x,
  *   point.y,
  * )

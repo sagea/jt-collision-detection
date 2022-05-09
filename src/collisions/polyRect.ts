@@ -4,37 +4,37 @@ import { polyPoint } from './polyPoint'
 
 /**
  * Check if a polygon and a rectangle intersect
- * 
+ *
  * Source: https://www.jeffreythompson.org/collision-detection/poly-rect.php
- * 
+ *
  * @param vertices polygon verticies
  * @param rx Rectangle x position
  * @param ry Rectangle y position
  * @param rw Rectangle width
  * @param rh Rectangle height
  * @returns
- * 
+ *
  * @example
  * ```js
  * import { polyRect } from 'jt-collision-detection'
- * 
+ *
  * const poly = [
  *  // triangle
  *  { x: 10, y: 10 },
  *  { x: 20, y: 20 },
  *  { x: 30, y: 10 },
  * ]
- * 
+ *
  * const rect = {
  *   x: 15,
  *   y: 15,
  *   width: 20,
  *   height: 50,
  * }
- * 
+ *
  * const haveCollided = polyRect(
  *   poly,
- * 
+ *
  *   rect.x,
  *   rect.y,
  *   rect.width,

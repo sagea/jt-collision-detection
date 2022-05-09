@@ -3,35 +3,35 @@ import { lineCircle } from './lineCircle'
 
 /**
  * Check if a polygon and a circle intersect
- * 
+ *
  * Source: https://www.jeffreythompson.org/collision-detection/poly-circle.php
- * 
+ *
  * @param vertices polygon verticies
  * @param cx Circle x position
  * @param cy Circle y position
  * @param r Circle radius
  * @returns
- * 
+ *
  * @example
  * ```js
  * import { polyCircle } from 'jt-collision-detection'
- * 
+ *
  * const poly = [
  *  // triangle
  *  { x: 10, y: 10 },
  *  { x: 20, y: 20 },
  *  { x: 30, y: 10 },
  * ]
- * 
+ *
  * const circle = {
  *   x: 10,
  *   y: 10,
  *   radius: 5
  * }
- * 
+ *
  * const haveCollided = polyCircle(
  *   poly,
- * 
+ *
  *   circle.x,
  *   circle.y,
  *   circle.radius,

@@ -2,9 +2,9 @@ import { dist } from '../utils'
 
 /**
  * Check two circles intersect
- * 
+ *
  * source: https://www.jeffreythompson.org/collision-detection/circle-circle.php
- * 
+ *
  * @param c1x Circle 1 x position
  * @param c1y Circle 1 y position
  * @param c1r Circle 1 radius
@@ -12,11 +12,11 @@ import { dist } from '../utils'
  * @param c2y Circle 2 y position
  * @param c2r Circle 2 radius
  * @returns
- * 
+ *
  * @example
  * ```js
  * import { circleCircle } from 'jt-collision-detection'
- * 
+ *
  * const circleA = {
  *   x: 10,
  *   y: 10,
@@ -27,12 +27,12 @@ import { dist } from '../utils'
  *   y: 15,
  *   radius: 3
  * }
- * 
+ *
  * const haveCollided = circleCircle(
  *   circleA.x,
  *   circleA.y,
  *   circleA.radius,
- * 
+ *
  *  circleB.x,
  *  circleB.y,
  *  circleB.radius,

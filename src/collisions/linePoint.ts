@@ -2,21 +2,21 @@ import { dist } from '../utils'
 
 /**
  * Check if point is on line (With 10% buffer because floats aren't fully reliable)
- * 
+ *
  * Source: https://www.jeffreythompson.org/collision-detection/line-point.php
- * 
+ *
  * @param {number} x1 Line starting point x poisition
  * @param {number} y1 Line starting point y poisition
  * @param {number} x2 Line ending point x poisition
  * @param {number} y2 Line ending point y poisition
- * @param {number} px point x position 
+ * @param {number} px point x position
  * @param {number} py point y position
  * @returns {boolean}
- * 
+ *
  * @example
  * ```js
  * import { linePoint } from 'jt-collision-detection'
- * 
+ *
  * const line = {
  *   start: { x: 5, y: 5 },
  *   end: { x: 10, y: 10 },
@@ -25,13 +25,13 @@ import { dist } from '../utils'
  *   x: 10,
  *   y: 10,
  * }
- * 
+ *
  * const haveCollided = linePoint(
  *   line.start.x,
  *   line.start.y,
  *   line.end.x,
  *   line.end.y,
- * 
+ *
  *   point.x,
  *   point.y,
  * )

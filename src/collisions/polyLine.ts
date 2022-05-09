@@ -3,35 +3,35 @@ import { lineLine } from './lineLine'
 
 /**
  * check if a polygon and a line intersect
- * 
+ *
  * Source: https://www.jeffreythompson.org/collision-detection/poly-line.php
- * 
+ *
  * @param vertices polygon verticies
  * @param x1 Line starting point x poisition
  * @param y1 Line starting point y poisition
  * @param x2 Line ending point x poisition
  * @param y2 Line ending point y poisition
  * @returns
- * 
+ *
  * @example
  * ```js
  * import { polyLine } from 'jt-collision-detection'
- * 
+ *
  * const poly = [
  *  // triangle
  *  { x: 10, y: 10 },
  *  { x: 20, y: 20 },
  *  { x: 30, y: 10 },
  * ]
- * 
+ *
  * const line = {
  *   start: { x: 5, y: 5 },
  *   end: { x: 10, y: 10 },
  * }
- * 
+ *
  * const haveCollided = polyLine(
  *   poly,
- * 
+ *
  *   line.start.x,
  *   line.start.y,
  *   line.end.x,

@@ -4,9 +4,9 @@ import { linePoint } from './linePoint'
 
 /**
  * Check if a line and circle intersect
- * 
+ *
  * Source: https://www.jeffreythompson.org/collision-detection/line-circle.php
- * 
+ *
  * @param {number} x1 Line starting point x poisition
  * @param {number} y1 Line starting point y poisition
  * @param {number} x2 Line ending point x poisition
@@ -15,11 +15,11 @@ import { linePoint } from './linePoint'
  * @param {number} cy Circle y position
  * @param {number} r Circle radius
  * @returns {boolean}
- * 
+ *
  * @example
  * ```js
  * import { lineCircle } from 'jt-collision-detection'
- * 
+ *
  * const line = {
  *   start: { x: 5, y: 5 },
  *   end: { x: 10, y: 10 },
@@ -29,13 +29,13 @@ import { linePoint } from './linePoint'
  *   y: 10,
  *   radius: 5
  * }
- * 
+ *
  * const haveCollided = lineCircle(
  *   line.start.x,
  *   line.start.y,
  *   line.end.x,
  *   line.end.y,
- *   
+ *
  *   circle.x,
  *   circle.y,
  *   circle.radius,

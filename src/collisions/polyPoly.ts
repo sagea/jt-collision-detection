@@ -4,24 +4,24 @@ import { polyPoint } from './polyPoint'
 
 /**
  * Check if two polygons intersect
- * 
+ *
  * Source: https://www.jeffreythompson.org/collision-detection/poly-poly.php
- * 
+ *
  * @param p1 polygon 1 verticies
  * @param p2 polygon 2 verticies
  * @returns
- * 
+ *
  * @example
  * ```js
  * import { polyPoly } from 'jt-collision-detection'
- * 
+ *
  * const polyA = [
  *  // triangle
  *  { x: 10, y: 10 },
  *  { x: 20, y: 20 },
  *  { x: 30, y: 10 },
  * ]
- * 
+ *
  * const polyB = [
  *  // Diamond
  *  { x: 10, y: 10 },
@@ -29,7 +29,7 @@ import { polyPoint } from './polyPoint'
  *  { x: 30, y: 10 },
  *  { x: 20, y: 0 },
  * ]
- * 
+ *
  * const haveCollided = polyPoly(
  *   polyA,
  *   polyB,

@@ -2,9 +2,9 @@ import { dist } from '../utils'
 
 /**
  * Check check if a circle and a rectangle intersect
- * 
+ *
  * https://www.jeffreythompson.org/collision-detection/circle-rect.php
- * 
+ *
  * @param {number} cx  Circle x position
  * @param {number} cy Circle y position
  * @param {number} r Circle radius
@@ -13,11 +13,11 @@ import { dist } from '../utils'
  * @param {number} rw Rectangle width
  * @param {number} rh Rectangle height
  * @returns {boolean}
- * 
+ *
  * @example
  * ```js
  * import { circleRect } from 'jt-collision-detection'
- * 
+ *
  * const circle = {
  *   x: 10,
  *   y: 10,
@@ -29,12 +29,12 @@ import { dist } from '../utils'
  *   width: 20,
  *   height: 50,
  * }
- * 
+ *
  * const haveCollided = circleRect(
  *   circle.x,
  *   circle.y,
  *   circle.radius,
- *  
+ *
  *   rect.x,
  *   rect.y,
  *   rect.width,

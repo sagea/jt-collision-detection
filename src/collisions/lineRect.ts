@@ -2,9 +2,9 @@ import { lineLine } from './lineLine'
 
 /**
  * Check if a line and a rectangle intersect
- * 
+ *
  * Source: https://www.jeffreythompson.org/collision-detection/line-rect.php
- * 
+ *
  * @param {number} x1 Line starting point x poisition
  * @param {number} y1 Line starting point y poisition
  * @param {number} x2 Line ending point x poisition
@@ -14,11 +14,11 @@ import { lineLine } from './lineLine'
  * @param {number} rw Rectangle width
  * @param {number} rh Rectangle height
  * @returns {boolean}
- * 
+ *
  * @example
  * ```js
  * import { lineRect } from 'jt-collision-detection'
- * 
+ *
  * const line = {
  *   start: { x: 5, y: 5 },
  *   end: { x: 10, y: 10 },
@@ -29,13 +29,13 @@ import { lineLine } from './lineLine'
  *   width: 20,
  *   height: 50,
  * }
- * 
+ *
  * const haveCollided = lineRect(
  *   line.start.x,
  *   line.start.y,
  *   line.end.x,
  *   line.end.y,
- * 
+ *
  *   rect.x,
  *   rect.y,
  *   rect.width,
